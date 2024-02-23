@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/d732738b39.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Banao Technologies</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <img
+        src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708669384/whole_fyptgv.png"
+        alt="logo"
+        class="logo-image"
+      />
+      <div class="search-bar">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input
+          class="placeholder-search"
+          placeholder="Search for your favorite groups in ATG"
+          type="text"
+        />
+      </div>
+      <p class="create-free-acount" id="nav-create-free-account-id">
+        Create account.<span class="blue-text"> It's free </span
+        ><i class="fa-solid fa-caret-down nav-caret-down-icon"></i>
+      </p>
+      <div
+        id="nav-profile-section"
+        class="nav-profile-container"
+        style="display: none"
+      >
+        <img
+          src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708679974/Rectangle_3.10_ym1jhb.png"
+          alt="profile"
+          class="nav-bar-profile"
+          style="display: none"
+        />
+        <p class="para-name">
+          Siddharth Goyal<i
+            class="fa-solid fa-caret-down nav-caret-down-icon"
+          ></i>
+        </p>
+      </div>
+    </nav>
+
+    <hr class="nav-horizontel-line" />
+
+    <div class="top-icons-container">
+      <img
+        src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708669253/Rectangle_lprlm4.png"
+        alt="square"
+        class="shapes"
+      />
+      <img
+        src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708669329/Oval_dhr1l9.png"
+        alt="circle"
+        class="shapes"
+      />
+      <img
+        src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708669361/Path_du3lji.png"
+        alt="triangle"
+        class="shapes"
+      />
+    </div>
+    <div class="banner-container">
+      <div class="color-gradient-container">
+        <div class="join-group-container">
+          <i class="fa-solid fa-arrow-left arrow-icon"></i>
+          <button class="join-group-btn" id="join-group">Join Group</button>
+        </div>
+        <div class="followers-count-container">
+          <h1 class="ce-heading">Computer Engineering</h1>
+          <p class="followers-count">142,765 Computer Engineers follow this</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="dekstop-sections-container">
+      <div class="sections">
+        <p class="all-post-text">All Posts(32)</p>
+        <p class="section-title">Article</p>
+        <p class="section-title">Event</p>
+        <p class="section-title">Education</p>
+        <p class="section-title">Job</p>
+      </div>
+      <div class="post-join-group-container">
+        <button class="nav-write-post-btn">
+          Write a Post
+          <i class="fa-solid fa-caret-down caret-down-icon"></i>
+        </button>
+        <button class="dekstop-join-btn" id="dekstop-join">
+          <i class="fa-solid fa-user-plus add-people-icon"></i>Join Group
+        </button>
+        <button
+          id="dekstop-leave-btn"
+          class="dekstop-leave-group-btn"
+          style="display: none"
+        >
+          <i class="fa-solid fa-arrow-right-to-bracket exit-icon"></i>Leave
+          Group
+        </button>
+      </div>
+    </div>
+    <hr class="horizontel-line" />
+
+    <div class="post-count-filter-all-container">
+      <p class="post-count">Posts(368)</p>
+      <button class="filter-btn">
+        Filter: All <i class="fa-solid fa-caret-down caret-down-icon"></i>
+      </button>
+    </div>
+
+    <div class="feeds-list-container">
+      <div class="dekstop-feeds-only-container">
+        <div class="feed-container">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708671178/Rectangle_5_pulovt.png"
+            alt="feed 1"
+            class="feeds-images"
+          />
+          <div class="feed-content-container">
+            <img
+              src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708671271/%EF%B8%8F_Article_hasmos.png"
+              alt="article"
+              class="article-hand-image"
+            />
+            <div class="feed-heading-container">
+              <h1 class="feed-heading">
+                What if famous brands had regular fonts? Meet RegulaBrands!
+              </h1>
+              <i class="fa-solid fa-ellipsis three-dots"></i>
+            </div>
+            <p class="feed-para">
+              I’ve worked in UX for the better part of a decade. F..
+            </p>
+
+            <div class="user-profile-container">
+              <div class="profile-user-name-container">
+                <img
+                  src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708679875/Rectangle_3.1_tvrfda.png"
+                  alt="profile"
+                  class="profile-image"
+                />
+                <p class="user-name">
+                  Sarthak Kamra<br />
+                  <span class="views-count">1.4k views</span>
+                </p>
+              </div>
+              <div class="dekstop-view-views-container">
+                <p class="dekstop-views-count">
+                  <i class="fa-regular fa-eye eyes-icon"></i>1.4k views
+                </p>
+                <button class="dekstop-share-btn">
+                  <i class="fa-solid fa-share-nodes share-icone"></i>
+                </button>
+              </div>
+              <button class="share-btn">
+                <i class="fa-solid fa-share-nodes share-icone"></i>Share
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="feed-container">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708671199/Rectangle_5_1_e1knzg.png"
+            alt="feed 2"
+            class="feeds-images"
+          />
+          <div class="feed-content-container">
+            <img
+              src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708685196/%EF%B8%8F_Education_mokhjh.png"
+              alt="education"
+              class="article-hand-image"
+            />
+            <div class="feed-heading-container">
+              <h1 class="feed-heading">
+                Tax Benefits for Investment under National Pension Scheme
+                launched by Government
+              </h1>
+              <i class="fa-solid fa-ellipsis three-dots"></i>
+            </div>
+            <p class="feed-para">
+              I’ve worked in UX for the better part of a decade. F..
+            </p>
+
+            <div class="user-profile-container">
+              <div class="profile-user-name-container">
+                <img
+                  src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708685504/Rectangle_3.6_rp1oit.png"
+                  alt="profile"
+                  class="profile-image"
+                />
+                <p class="user-name">
+                  Sarah West<br />
+                  <span class="views-count">4.8k views</span>
+                </p>
+              </div>
+              <button class="share-btn">
+                <i class="fa-solid fa-share-nodes share-icone"></i> Share
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="feed-container">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708671285/Rectangle_5_2_udtmwr.png"
+            alt="feed 3"
+            class="feeds-images"
+          />
+          <div class="feed-content-container">
+            <img
+              src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708685196/%EF%B8%8F_Meetup_1_vxynkg.png"
+              alt="meet up"
+              class="article-hand-image"
+            />
+            <div class="feed-heading-container">
+              <h1 class="feed-heading">
+                Finance & Investment Elite Social Mixer @Lujiazui
+              </h1>
+              <i class="fa-solid fa-ellipsis three-dots"></i>
+            </div>
+
+            <div class="date-location-container">
+              <p class="date">
+                <i class="fa-solid fa-calendar-day calendar-location-icon"></i>
+                Fri, 12 Oct, 2018
+              </p>
+              <p class="loaction">
+                <i class="fa-solid fa-location-dot calendar-location-icon"></i>
+                Ahmedabad, India
+              </p>
+            </div>
+
+            <button class="view-website-btn">View Website</button>
+
+            <div class="user-profile-container">
+              <div class="profile-user-name-container">
+                <img
+                  src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708679974/Rectangle_3.8_iinscy.png"
+                  alt="profile"
+                  class="profile-image"
+                />
+                <p class="user-name">
+                  Ronal Jones<br />
+                  <span class="views-count">800 views</span>
+                </p>
+              </div>
+              <button class="share-btn">
+                <i class="fa-solid fa-share-nodes share-icone"></i> Share
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="feed-container">
+          <div class="feed-content-container">
+            <img
+              src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708685196/%EF%B8%8F_Job_ja9qml.png"
+              alt="job"
+              class="article-hand-image"
+            />
+            <div class="feed-heading-container">
+              <h1 class="feed-heading">Software Developer - II</h1>
+              <i class="fa-solid fa-ellipsis three-dots"></i>
+            </div>
+
+            <div class="date-location-container">
+              <p class="date">
+                <i class="fa-solid fa-briefcase calendar-location-icon"></i>
+                Innovaccer Analytic...
+              </p>
+              <p class="loaction">
+                <i class="fa-solid fa-location-dot calendar-location-icon"></i>
+                Noida, India
+              </p>
+            </div>
+
+            <button class="apply-on-times-job-btn-green">
+              Apply on Timesjobs
+            </button>
+
+            <div class="user-profile-container">
+              <div class="profile-user-name-container">
+                <img
+                  src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708679974/Rectangle_3.10_ym1jhb.png"
+                  alt="profile"
+                  class="profile-image"
+                />
+                <p class="user-name">
+                  Joseph Gray<br />
+                  <span class="views-count">1.7k views</span>
+                </p>
+              </div>
+              <button class="share-btn">
+                <i class="fa-solid fa-share-nodes share-icone"></i> Share
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dekstop-location-detials-container">
+        <div class="dekstop-location-container">
+          <div class="location-icon-container">
+            <i class="fa-solid fa-location-dot desktop-location-icon"></i>
+            <p class="dekstop-location" id="location-join">Noida, India</p>
+            <input
+              placeholder="Enter your location"
+              class="location-input-bar"
+              type="text"
+              id="dekstop-location-input-bar"
+              style="display: none"
+            />
+          </div>
+          <i class="fa-solid fa-pencil" id="edit-penicl"></i>
+          <i
+            class="fa-solid fa-xmark"
+            id="dekstop-edit-close"
+            style="display: none"
+          ></i>
+        </div>
+        <hr class="horizontel-line" />
+        <p class="notice-text">
+          <i class="fa-solid fa-circle-exclamation excla-icon"></i>Your location
+          will help us serve better and extend a personalised experience.
+        </p>
+        <div class="courses-list-container" id="courses-container">
+          <div class="courses-heading-container">
+            <img
+              src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708671266/Vector_uaxd0p.png"
+              alt="thumb"
+              class="thumb-img"
+            />
+            <h1 class="recommended-heading">RECOMMENDED GROUPS</h1>
+          </div>
+          <div class="course-card">
+            <div class="course">
+              <img
+                src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708671264/Rectangle_6_1_mwl6pu.png"
+                alt="image1"
+                class="course-image"
+              />
+              <p class="course-name">Leisure</p>
+            </div>
+            <button class="follow-btn" id="follow-button">Follow</button>
+          </div>
+          <div class="course-card">
+            <div class="course">
+              <img
+                src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708671269/Rectangle_6_ifsdct.png"
+                alt="image2"
+                class="course-image"
+              />
+              <p class="course-name">MBA</p>
+            </div>
+            <button class="follow-btn" id="follow-button">Follow</button>
+          </div>
+          <div class="course-card">
+            <div class="course">
+              <img
+                src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708710339/Rectangle_6_2_pvmamz.png"
+                alt="image3"
+                class="course-image"
+              />
+              <p class="course-name">MBA</p>
+            </div>
+            <button class="follow-btn" id="follow-button">Follow</button>
+          </div>
+          <div class="course-card">
+            <div class="course">
+              <img
+                src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708710339/Rectangle_6_3_aesqo9.png"
+                alt="image4"
+                class="course-image"
+              />
+              <p class="course-name">Philosophy</p>
+            </div>
+            <button class="follow-btn" id="follow-button">Follow</button>
+          </div>
+
+          <p class="see-more-text">See More...</p>
+        </div>
+      </div>
+    </div>
+
+    <img
+      src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708671276/Group_6_1_nmarb0.png"
+      alt="edit"
+      class="pencil-image"
+      id="pencil"
+    />
+
+    <div
+      style="display: none"
+      id="sign-up-form"
+      class="create-account-popup-container"
+    >
+      <div class="card-container">
+        <div class="image-container">
+          <div class="form-heading-close-icone-container">
+            <h1 class="form-heading">Create Account</h1>
+            <i class="fa-solid fa-circle-xmark" id="close-icone"></i>
+          </div>
+          <div class="form-container">
+            <div class="first-last-name">
+              <input
+                class="input-bar-name"
+                placeholder="First Name"
+                type="text"
+              />
+              <input
+                class="input-bar-name"
+                placeholder="Last Name"
+                type="text"
+              />
+            </div>
+            <input class="input-bar" placeholder="Email" type="text" />
+            <input class="input-bar" placeholder="Password" type="password" />
+            <input
+              class="input-bar"
+              placeholder="Confrim Password"
+              type="password"
+            />
+          </div>
+          <div class="buttons-container">
+            <button class="create-account-btn">Create Account</button>
+            <p class="sign-in-para" id="sign-in">or, Sign In</p>
+          </div>
+
+          <button class="sign-up-btn">
+            <i class="fa-brands fa-facebook fb-icon" style="color: #178de8"></i>
+            Sign up with Facebook
+          </button>
+          <button class="sign-up-btn">
+            <img
+              src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708698191/search_tkzzew.png"
+              alt="google-icon"
+              class="google-image"
+            />Sign up with Google
+          </button>
+          <p class="privay-text">
+            By signing up, you agree to our Terms & conditions, Privacy policy
+          </p>
+        </div>
+        <img
+          src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708671279/Group_3_1_ngbdro.png"
+          class="form-image"
+        />
+      </div>
+    </div>
+
+    <div
+      id="sign-in-form"
+      class="create-account-popup-container"
+      style="display: none"
+    >
+      <div class="sign-card-container">
+        <div class="form-heading-close-icone-container">
+          <h1 class="form-heading">Welcome Back!</h1>
+          <i class="fa-solid fa-circle-xmark" id="sign-in-close-icone"></i>
+        </div>
+        <div class="form-container">
+          <input class="input-bar" placeholder="Email" type="text" />
+          <input class="input-bar" placeholder="Password" type="password" />
+        </div>
+        <div class="buttons-container">
+          <button class="create-account-btn">Sign In</button>
+          <p class="sign-in-para" id="create-account">or, Create Account</p>
+        </div>
+
+        <button class="sign-up-btn">
+          <i class="fa-brands fa-facebook fb-icon" style="color: #178de8"></i>
+          Sign up with Facebook
+        </button>
+        <button class="sign-up-btn">
+          <img
+            src="https://res.cloudinary.com/dffu1ungl/image/upload/v1708698191/search_tkzzew.png"
+            alt="google-icon"
+            class="google-image"
+          />Sign up with Google
+        </button>
+        <p class="forget-text">Forgot Password?</p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
