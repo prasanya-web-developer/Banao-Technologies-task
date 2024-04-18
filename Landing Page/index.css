@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-container {
+  min-height: 100vh;
+}
+
+.bg-container {
+  background-image: url("https://res.cloudinary.com/dffu1ungl/image/upload/v1711707120/Default_Capture_the_Essence_of_Aromaverse_A_Vibrant_Image_Refl_0_jqmkle.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.restaurant-name {
+  margin-top: 0px;
+  font-family: "Poppins";
+  font-size: 80px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.heading {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.headline {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 80%;
+}
+
+.box {
+  max-width: 100%;
+
+  padding-top: 60px;
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #00000080;
+  height: 91vh;
+}
+
+.order-now-btn {
+  height: 40px;
+  width: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #f7900a;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Poppins";
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.order-now-btn:hover {
+  background-color: #ed9624;
+}
+
+.benefits-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+.benefits-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Benefits-heading {
+  font-family: "Nunito";
+  font-size: 44px;
+  font-weight: 600;
+  color: #02212e;
+  width: 90%;
+}
+
+.Benefits-para {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  color: #022f42;
+  text-align: center;
+  width: 80%;
+}
+
+.benefits-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.card {
+  width: 30%;
+  box-shadow: 0px 0px 8px 0px #02212e;
+  border-radius: 10px;
+}
+
+.image {
+  width: 100%;
+  height: 240px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.description-heading {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: bold;
+  color: #113140;
+  text-align: center;
+}
+
+.description {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  color: #01152e;
+  text-align: center;
+  padding: 10px;
+  color: #000000;
+}
+
+.more-details-review {
+  height: 500px;
+  width: 400px;
+  border-radius: 16px;
+  border: 2px solid #ed9624;
+}
+
+.why-choose-content {
+  width: 50%;
+}
+
+.more-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 100px;
+}
+
+.why-choose-auroma {
+  font-family: "Poppins";
+  font-size: 26px;
+  color: #02212e;
+  font-weight: 500;
+  text-align: center;
+}
+
+.why-choose-heading {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 700;
+  color: #02212e;
+}
+
+.featured-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  padding: 30px;
+}
+
+.featured-heading {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 700;
+  color: #01152e;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.call-to-action-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.CTA-heading {
+  font-family: "Poppins";
+  font-size: 36px;
+  font-weight: 600;
+  color: #01152e;
+  text-align: center;
+}
+
+.CTA-description {
+  font-family: "Poppins";
+  font-size: 24px;
+  color: #01152e;
+  font-weight: 400;
+  text-align: center;
+  width: 80%;
+  margin-top: 0px;
+}
+
+.footer-container {
+  background-color: #01152e;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-cafe-name {
+  font-family: "Nunito";
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.develop-name {
+  text-decoration: none;
+  font-family: "Nunito";
+  color: #f7900a;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 601px) and (max-width: 950px) {
+  .restaurant-name {
+    font-size: 50px;
+  }
+
+  .bg-container {
+    padding: 0px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    background-color: #00000080;
+    padding-top: 0px;
+    padding-left: 40px;
+    margin: 0px;
+    height: 100vh;
+    padding-right: 10px;
+  }
+
+  .heading {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .headline {
+    font-size: 16px;
+    width: 90%;
+    letter-spacing: 0.5px;
+  }
+
+  .benefits-container {
+    margin: 20px;
+  }
+
+  .Benefits-heading {
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .Benefits-para {
+    font-size: 18px;
+    width: 100%;
+    font-weight: 400;
+  }
+
+  .benefits-cards {
+    width: 100%;
+  }
+
+  .image {
+    height: 220px;
+  }
+
+  .card {
+    width: 40%;
+  }
+
+  .description-heading {
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding: 8px;
+  }
+
+  .description {
+    font-size: 14px;
+    margin-top: 0px;
+  }
+
+  .more-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .why-choose-content {
+    width: 90%;
+  }
+
+  .why-choose-auroma {
+    font-size: 16px;
+  }
+
+  .why-choose-heading {
+    font-size: 22px;
+  }
+
+  .featured-heading {
+    font-size: 20px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .CTA-heading {
+    font-size: 20px;
+  }
+
+  .CTA-description {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bg-container {
+    padding: 0px;
+    background-image: url("https://res.cloudinary.com/dffu1ungl/image/upload/v1711711768/Default_Coffee_Bliss_Illustrate_a_steaming_cup_of_coffee_surro_0_1_q4lbsd.jpg");
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    background-color: #00000080;
+    padding-top: 0px;
+    padding-left: 20px;
+    margin: 0px;
+    height: 100vh;
+    padding-right: 10px;
+  }
+
+  .heading {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .restaurant-name {
+    font-size: 30px;
+  }
+
+  .headline {
+    font-size: 14px;
+    width: 100%;
+    letter-spacing: 1px;
+  }
+
+  .Benefits-heading {
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .Benefits-para {
+    font-size: 14px;
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .benefits-container {
+    margin: 20px;
+  }
+
+  .benefits-cards {
+    width: 100%;
+  }
+
+  .image {
+    height: 170px;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .description-heading {
+    font-size: 16px;
+    margin: 8px;
+    margin-bottom: 0px;
+  }
+
+  .description {
+    font-size: 12px;
+    padding: 8px;
+    margin: 8px;
+    margin-top: 0px;
+  }
+
+  .more-details-review {
+    height: 200px;
+    width: 250px;
+  }
+
+  .why-choose-content {
+    width: 80%;
+  }
+
+  .more-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .why-choose-auroma {
+    font-size: 14px;
+  }
+
+  .why-choose-heading {
+    font-size: 18px;
+  }
+
+  .featured-section {
+    margin-bottom: 70px;
+    padding: 20px;
+  }
+
+  .featured-heading {
+    font-size: 18px;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+
+  .CTA-heading {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .CTA-description {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .footer-cafe-name {
+    font-size: 12px;
+  }
+}
